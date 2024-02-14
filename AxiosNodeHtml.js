@@ -85,7 +85,5 @@ app.get("/delete/:id", async (req, res) => {
         res.status(500).send('Error');
     }
 });
-
-app.listen(5500,() => {
-    console.log('Server started on port 5500');
-});
+const port = process.env.PORT || 5500;
+app.listen(port, () => console.log(`Listening on port ${port}...`));
