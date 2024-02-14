@@ -8,8 +8,8 @@ var bodyParser = require('body-parser');
 
 //Base URL for the API
 //const base_url = "https://api.example.com";
-// const base_url = "http://localhost:3000";
-const base_url = "http://10.104.16.234:3000";
+//const base_url = "http://localhost:3000";
+const base_url = "http://node57031-arunkamon-noderest.proen.app.ruk-com.cloud";
 
 //set the template engine
 app.set('view engine','ejs');
